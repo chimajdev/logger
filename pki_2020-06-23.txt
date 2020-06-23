@@ -1,0 +1,12 @@
+[00:10:00:001]|[06-23-2020]|[com.manageengine.pki.schedule.task.AuditPurgeTask]|[INFO]|[83]: Audit purge task started|
+[02:00:02:308]|[06-23-2020]|[com.manageengine.pki.schedule.task.DBBackupTask]|[INFO]|[80]: Backup Schedule mail address is not available.|
+[03:00:00:000]|[06-23-2020]|[com.manageengine.pki.ssl.SSLVulnerabilitiesTask]|[INFO]|[81]: SSL Vulnerabilities task started|
+[05:00:00:000]|[06-23-2020]|[com.manageengine.pki.letsencrypt.LetsEncryptRenewalTask]|[INFO]|[82]: Let's Encrypt certificate renewel task started|
+[05:00:00:000]|[06-23-2020]|[com.manageengine.pki.digicert.DigiCertTask]|[INFO]|[83]: DigiCertTask Started:|
+[05:00:00:001]|[06-23-2020]|[com.manageengine.pki.digicert.DigiCertTask]|[INFO]|[83]: DigiCertTask No account available|
+[06:00:00:000]|[06-23-2020]|[com.manageengine.pki.digicert.DigiCertCertTask]|[INFO]|[84]: DigiCertCertTask Started:|
+[06:00:00:001]|[06-23-2020]|[com.manageengine.pki.digicert.DigiCertCertTask]|[INFO]|[84]: DigiCertCertTask No account available|
+[07:00:00:001]|[06-23-2020]|[com.manageengine.pki.sslstore.SSLStoreCertTask]|[INFO]|[80]: SSLStoreCertTask Started:|
+[07:00:00:002]|[06-23-2020]|[com.manageengine.pki.sslstore.SSLStoreCertTask]|[INFO]|[80]: SSLStoreCertTask Completed:|
+[08:00:00:002]|[06-23-2020]|[com.manageengine.pki.pgp.PGPExpiryNotifyTask]|[INFO]|[81]: PGPExpiryNotifyTask disabled|
+[13:00:00:001]|[06-23-2020]|[com.manageengine.pki.schedule.task.ScheduleMSCAAutoRenewalTask]|[INFO]|[83]: MicroSoft CA AutoRenewal Task Running.....|

@@ -1,0 +1,166 @@
+[12:47:52:085]|[06-10-2020]|[com.adventnet.mfw.PatchUpdater]|[WARNING]|[1]: The 'fixes' directory is missing. Product loads the jar(s) without PATCH|
+[12:47:52:098]|[06-10-2020]|[com.adventnet.mfw.Starter]|[INFO]|[1]: Going to add jars from Directory : /home/ubuntu/ManageEngine/KeyManager/lib to classpath|
+[12:47:52:115]|[06-10-2020]|[com.adventnet.mfw.Starter]|[INFO]|[1]: Going to add jars from Directory : /home/ubuntu/ManageEngine/KeyManager/lib/zohosecurity to classpath|
+[12:47:52:116]|[06-10-2020]|[com.adventnet.mfw.Starter]|[INFO]|[1]: Going to add jars from Directory : /home/ubuntu/ManageEngine/KeyManager/lib/tomcat to classpath|
+[12:47:52:120]|[06-10-2020]|[com.adventnet.mfw.Starter]|[INFO]|[1]: Going to add jars from Directory : /home/ubuntu/ManageEngine/KeyManager/lib/tomcat to classpath|
+[12:47:52:125]|[06-10-2020]|[com.adventnet.mfw.Starter]|[INFO]|[1]: Going to add jars from Directory : /home/ubuntu/ManageEngine/KeyManager/lib/resources to classpath|
+[12:47:52:194]|[06-10-2020]|[com.adventnet.mfw.Server]|[INFO]|[1]: Creating new Server instance|
+[12:47:52:245]|[06-10-2020]|[com.adventnet.persistence.ConfigurationParser]|[INFO]|[1]: Processing all product-config files|
+[12:47:52:246]|[06-10-2020]|[com.adventnet.persistence.ConfigurationParser]|[INFO]|[1]: Processing /home/ubuntu/ManageEngine/KeyManager/conf/product-config.xml|
+[12:47:52:251]|[06-10-2020]|[com.adventnet.persistence.ConfigurationParser]|[INFO]|[1]: Processing /home/ubuntu/ManageEngine/KeyManager/conf/customer-config.xml|
+[12:47:52:267]|[06-10-2020]|[com.adventnet.persistence.ConfigurationParser]|[INFO]|[1]: Processing all product-config files|
+[12:47:52:267]|[06-10-2020]|[com.adventnet.persistence.ConfigurationParser]|[INFO]|[1]: Processing /home/ubuntu/ManageEngine/KeyManager/conf/product-config.xml|
+[12:47:52:269]|[06-10-2020]|[com.adventnet.persistence.ConfigurationParser]|[INFO]|[1]: Processing /home/ubuntu/ManageEngine/KeyManager/conf/customer-config.xml|
+[12:47:52:275]|[06-10-2020]|[com.zoho.framework.utils.crypto.EnDecryptUtil]|[INFO]|[1]: Enforce encryption - false|
+[12:47:52:512]|[06-10-2020]|[com.zoho.framework.utils.crypto.EnDecryptAES256Impl]|[SEVERE]|[1]: Decryption failed For input string: "M"|
+[12:47:52:512]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Reading /home/ubuntu/ManageEngine/KeyManager/conf/database_params.conf |
+[12:47:52:517]|[06-10-2020]|[com.adventnet.persistence.util.DCManager]|[INFO]|[1]: All valid properties are available for dctype :: defaultdc, database :: postgres|
+[12:47:52:518]|[06-10-2020]|[com.adventnet.persistence.util.DCManager]|[INFO]|[1]: dc-types defined in dynamic-column-types.props :: [defaultdc]|
+[12:47:52:518]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Loading UDTs from directory :: /home/ubuntu/ManageEngine/KeyManager/conf/udt|
+[12:47:52:538]|[06-10-2020]|[com.adventnet.db.api.RelationalAPI]|[SEVERE]|[1]: haltjvm.on.dbcrash is set to [true]|
+[12:47:52:538]|[06-10-2020]|[com.adventnet.db.persistence.metadata.util.LocalMetaDataInfo]|[INFO]|[1]: Loaded DefaultTemplateMetaHandler [com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|
+[12:47:52:540]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: AGE|
+[12:47:52:541]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: CURRENCY|
+[12:47:52:543]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: CURRENCYSYMBOL|
+[12:47:52:544]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: DAYS|
+[12:47:52:544]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: GENDER|
+[12:47:52:545]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: HONORIFIC|
+[12:47:52:547]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: JSONSTRING|
+[12:47:52:548]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: LENGTH|
+[12:47:52:548]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: MONTHS|
+[12:47:52:559]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: UUID|
+[12:47:52:560]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[INFO]|[1]: Loaded data type :: WEIGHT|
+[12:47:52:560]|[06-10-2020]|[com.adventnet.db.persistence.metadata.DataTypeManager]|[SEVERE]|[1]: DataTypes initialized from :: /home/ubuntu/ManageEngine/KeyManager/conf/udt|
+[12:47:52:563]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Reading /home/ubuntu/ManageEngine/KeyManager/conf/database_params.conf |
+[12:47:52:636]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Driver Name :: org.postgresql.Driver|
+[12:47:52:637]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Connection URL :: jdbc:postgresql://localhost:53306/pki?charSet=UTF-8|
+[12:47:52:637]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Username :: kmpuser|
+[12:47:52:643]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Min Size :: 1|
+[12:47:52:643]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Max Size :: 20|
+[12:47:52:643]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Transaction Isolation :: TRANSACTION_READ_COMMITTED|
+[12:47:52:673]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Template replaced url :: jdbc:postgresql://localhost:53306/pki?charSet=UTF-8|
+[12:47:52:685]|[06-10-2020]|[com.zoho.cp.ConnectionCreator]|[INFO]|[1]: Socket Factory className--null|
+[12:47:52:793]|[06-10-2020]|[com.adventnet.ds.DefaultDataSourcePlugIn]|[INFO]|[1]: DataSourcecom.zoho.cp.TxDataSource@641147d0|
+[12:47:52:793]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Archive Adapter class ::: com.adventnet.db.archive.DefaultArchiveAdapter|
+[12:47:52:793]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Storage Adapter class ::: null|
+[12:47:52:796]|[06-10-2020]|[com.adventnet.db.adapter.Jdbc20DBAdapter]|[INFO]|[1]: shutDownStrings :: []|
+[12:47:52:796]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[SEVERE]|[1]: DBCrashHandler [com.adventnet.passtrix.PMPDBCrashHandler] has been set to RelationalAPI.|
+[12:47:52:802]|[06-10-2020]|[com.adventnet.db.adapter.Jdbc20DBAdapter]|[INFO]|[1]: Loading the function patterns from the file :: [/home/ubuntu/ManageEngine/KeyManager/conf/Persistence/postgres_functionpatterns.txt]|
+[12:47:52:805]|[06-10-2020]|[com.adventnet.db.adapter.Jdbc20DBAdapter]|[INFO]|[1]: isDBMigration running :: false|
+[12:47:52:805]|[06-10-2020]|[com.adventnet.db.adapter.Jdbc20DBAdapter]|[INFO]|[1]: isDBMigration dest DB :: false|
+[12:47:52:805]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresDBAdapter]|[WARNING]|[1]: Identifier [pgsql_identifiers.txt] file not exist for this database|
+[12:47:52:806]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresSQLGenerator]|[INFO]|[1]: Encryption algorithm used :: [aes256]|
+[12:47:52:806]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresSQLGenerator]|[INFO]|[1]: Encryption s2k-mode used :: [1]|
+[12:47:52:808]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: db.home ::: /home/ubuntu/ManageEngine/KeyManager/pgsql|
+[12:47:52:810]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: DataSourcePlugIn is initialized successfully|
+[12:47:52:815]|[06-10-2020]|[com.adventnet.db.adapter.AbstractRestoreHandler]|[INFO]|[1]: Restore process fully completed.|
+[12:47:52:815]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Template replaced url :: jdbc:postgresql://localhost:53306/pki?charSet=UTF-8|
+[12:47:52:815]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Reading /home/ubuntu/ManageEngine/KeyManager/conf/database_params.conf |
+[12:47:52:816]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresDBAdapter]|[INFO]|[1]: port not specified in /home/ubuntu/ManageEngine/KeyManager/pgsql/data/postgresql.conf returning default port 5432|
+[12:47:52:816]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: /home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_isready isExists :: true|
+[12:47:52:817]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_isready, --host, 127.0.0.1, --port, 53306, -t, 120, --username, kmpuser] |
+[12:47:52:829]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: pg_isready returning status :: 2|
+[12:47:52:829]|[06-10-2020]|[SYSOUT]|[INFO]|[12]: 127.0.0.1:53306 - no response|
+[12:47:52:830]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: isServerRunning :: false|
+[12:47:52:830]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Checking for existance of postmaster.pid file :: false|
+[12:47:52:831]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/postgres, -V] |
+[12:47:52:833]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Checking for IPV6 support|
+[12:47:52:833]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Resolved address of host [localhost] is [localhost/127.0.0.1]|
+[12:47:52:834]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Going to start DB server using pg_ctl utility.|
+[12:47:52:834]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[SEVERE]|[1]: Command :: [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_ctl, -w, -D, /home/ubuntu/ManageEngine/KeyManager/pgsql/data, -o, "-p53306", start]|
+[12:47:52:835]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed ::: [stat, -c, %U, /home/ubuntu/ManageEngine/KeyManager/pgsql/data]|
+[12:47:52:837]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: dataDirectoryOwnerName :::: ubuntu|
+[12:47:52:837]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [su, -, ubuntu, -c, /home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_ctl -w -D /home/ubuntu/ManageEngine/KeyManager/pgsql/data -o "-p53306" start ] |
+[12:47:52:876]|[06-10-2020]|[pglog]|[INFO]|[14]: waiting for server to start....LOG:  redirecting log output to logging collector process|
+[12:47:52:876]|[06-10-2020]|[pglog]|[INFO]|[14]: HINT:  Future log output will appear in directory "pg_log".|
+[12:47:53:853]|[06-10-2020]|[pglog]|[INFO]|[14]:  done|
+[12:47:53:853]|[06-10-2020]|[pglog]|[INFO]|[14]: server started|
+[12:47:53:854]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: waitfor pgctl Utility returns :: 0|
+[12:47:53:855]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: is DB registered as a service ::: false|
+[12:47:53:855]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_isready, --host, 127.0.0.1, --port, 53306, -t, 120, --username, kmpuser] |
+[12:47:53:859]|[06-10-2020]|[SYSOUT]|[INFO]|[17]: 127.0.0.1:53306 - accepting connections|
+[12:47:53:859]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: pg_isready returning status :: 0|
+[12:47:53:859]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: isServerRunning :: true|
+[12:47:53:859]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: isServerStarted :: going to return :: true|
+[12:47:53:866]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresConfUtil]|[INFO]|[1]: Matching HBA Entry ::: {ADDRESS=127.0.0.1/32, TYPE=host, DATABASE=all, USER=all, AUTH_MODE=md5}|
+[12:47:53:866]|[06-10-2020]|[com.adventnet.db.adapter.Jdbc20DBAdapter]|[INFO]|[1]: splitConnectionURL :: {jdbcurl_props_separator=?, url_props_delimiter=&, Server=localhost, Port=53306, DBName=pki, urlWithoutProps=jdbc:postgresql://localhost:53306/pki}|
+[12:47:53:867]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Checking is DB server ready to accept connection...|
+[12:47:53:867]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: hostAddress of localhost is 127.0.0.1|
+[12:47:53:867]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed :::: [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/psql, -U, kmpuser, -p, 53306, -h, 127.0.0.1, -c, SELECT 1, -d, postgres, -w] |
+[12:47:53:867]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/psql, -U, kmpuser, -p, 53306, -h, 127.0.0.1, -c, SELECT 1, -d, postgres, -w] |
+[12:47:53:877]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Database server responsing...
+Database server is now READY to accept connections!!!|
+[12:47:53:878]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresDBAdapter]|[INFO]|[1]: isDBReadyToAcceptConnection returns ::: true|
+[12:47:53:878]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresDBAdapter]|[INFO]|[1]: Database server sucessfully started.|
+[12:47:53:878]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Reading /home/ubuntu/ManageEngine/KeyManager/conf/database_params.conf |
+[12:47:53:889]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresDBAdapter]|[INFO]|[1]: Postgres Architecture file already exists|
+[12:47:53:889]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Template replaced url :: jdbc:postgresql://localhost:53306/pki?charSet=UTF-8|
+[12:47:53:890]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: hostAddress of localhost is 127.0.0.1|
+[12:47:53:890]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed :::: [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/psql, -U, kmpuser, -p, 53306, -h, 127.0.0.1, -c, CREATE DATABASE "pki" OWNER = kmpuser, -d, postgres, -w] |
+[12:47:53:890]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/psql, -U, kmpuser, -p, 53306, -h, 127.0.0.1, -c, CREATE DATABASE "pki" OWNER = kmpuser, -d, postgres, -w] |
+[12:47:53:895]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: ErrorStream ::: ERROR:  database "pki" already exists|
+[12:47:53:904]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresDBAdapter]|[INFO]|[1]: createDB returns ::: true|
+[12:47:53:979]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresDBAdapter]|[INFO]|[1]: Postgres version ::: 9.5.3|
+[12:47:53:980]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresUuidDTAdapter]|[INFO]|[1]: Postgres version : 9.5.3|
+[12:47:53:980]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresUuidDTAdapter]|[INFO]|[1]: This version of Postgres :: 9.5.3 is supported for UUID|
+[12:47:53:980]|[06-10-2020]|[com.adventnet.db.adapter.Jdbc20DBAdapter]|[INFO]|[1]: splitConnectionURL :: {jdbcurl_props_separator=?, url_props_delimiter=&, Server=localhost, Port=53306, DBName=pki, urlWithoutProps=jdbc:postgresql://localhost:53306/pki}|
+[12:47:53:980]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Template replaced url :: jdbc:postgresql://localhost:53306/pki?charSet=UTF-8|
+[12:47:53:981]|[06-10-2020]|[com.adventnet.db.adapter.postgres.PostgresDBAdapter]|[INFO]|[1]: Going to create postgres extensions if not exists ...|
+[12:47:53:984]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/postgres, -V] |
+[12:47:53:988]|[06-10-2020]|[com.adventnet.db.adapter.Jdbc20DBAdapter]|[INFO]|[1]: DB Version            :: 9.5.3|
+[12:47:53:989]|[06-10-2020]|[com.adventnet.db.adapter.Jdbc20DBAdapter]|[INFO]|[1]: DB Architecture       :: 64|
+[12:47:54:025]|[06-10-2020]|[com.adventnet.db.adapter.Jdbc20DBAdapter]|[INFO]|[1]: DB Data Directory     :: /home/ubuntu/ManageEngine/KeyManager/pgsql/data|
+[12:47:54:034]|[06-10-2020]|[com.adventnet.persistence.xml.DynamicValueHandlerRepositry]|[INFO]|[1]: Going to load DVH :: jar:file:/home/ubuntu/ManageEngine/KeyManager/lib/AdvPersistence.jar!/com/adventnet/db/persistence/metadata/conf/dynamic-value-handlers.xml|
+[12:47:54:187]|[06-10-2020]|[com.adventnet.db.persistence.metadata.MetaDataEntityResolver]|[INFO]|[1]: Entered resolveEntity2 :: systemId :: [data-dictionary.dtd], publicId :: [null], name :: [[dtd]], baseURI :: [null]|
+[12:47:54:206]|[06-10-2020]|[com.adventnet.db.persistence.metadata.parser.DataDictionaryParser]|[INFO]|[1]: Parsing the File :: file:/home/ubuntu/ManageEngine/KeyManager/lib/AdvPersistence.jar!/com/adventnet/db/persistence/metadata/conf/meta-dd.xml|
+[12:47:54:586]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: Persistence|
+[12:47:54:587]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: persURL :: jar:file:/home/ubuntu/ManageEngine/KeyManager/lib/AdvPersistence.jar!/com/adventnet/db/persistence/metadata/conf/personality-configuration.xml|
+[12:47:54:603]|[06-10-2020]|[com.adventnet.persistence.xml.XmlParser]|[INFO]|[1]: Going to parse the XML :: [jar:file:/home/ubuntu/ManageEngine/KeyManager/lib/AdvPersistence.jar!/com/adventnet/db/persistence/metadata/conf/personality-configuration.xml]|
+[12:47:54:644]|[06-10-2020]|[com.adventnet.passtrix.PMPPersistencePreProcessor]|[INFO]|[1]:  IS COLD START false|
+[12:47:54:653]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Preprocessor :: [com.adventnet.passtrix.PMPPersistencePreProcessor] has been instantiated and initialized.|
+[12:47:54:656]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Going to loadErrorCodes :: [/home/ubuntu/ManageEngine/KeyManager/conf/Persistence/error-codes.xml]|
+[12:47:54:657]|[06-10-2020]|[com.adventnet.persistence.xml.XmlParser]|[INFO]|[1]: Going to parse the XML :: [file:/home/ubuntu/ManageEngine/KeyManager/conf/Persistence/error-codes.xml]|
+[12:47:54:685]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[SEVERE]|[1]: Already an errorcode [1,217] has been defined, hence over-writing it|
+[12:47:54:686]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[SEVERE]|[1]: Already an errorcode [1,451] has been defined, hence over-writing it|
+[12:47:54:686]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[SEVERE]|[1]: Already an errorcode [547] has been defined, hence over-writing it|
+[12:47:54:686]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: ErrorCodes :: {OracleErrorCode={1=1001 - ER_DUP_ENTRY, 947=1008 - ER_WRONG_VALUE_COUNT, 12899=1018 - ER_WARN_DATA_OUT_OF_RANGE, 2292=1015 - ER_NO_REFERENCED_ROW, 934=1031 - ER_INVALID_GROUP_FUNC_USE, 1400=1004 - ER_BAD_NULL_ERROR, 904=1011 - ER_WRONG_COLUMN_NAME, 937=1032 - ER_MIX_OF_GROUP_FUNC_AND_FIELDS, 1722=1017 - ER_WRONG_VALUE_FOR_VAR, 1438=1014 - ER_TOO_BIG_SET}, MySQLErrorCode={1216=1015 - ER_NO_REFERENCED_ROW, 1217=1016 - ER_ROW_IS_REFERENCED, 1058=1008 - ER_WRONG_VALUE_COUNT, 1062=1001 - ER_DUP_ENTRY, 1063=1010 - ER_WRONG_FIELD_SPEC, 1097=1014 - ER_TOO_BIG_SET, 1291=1003 - ER_DUPLICATED_VALUE_IN_TYPE, 1067=1012 - ER_INVALID_DEFAULT, 1451=1016 - ER_ROW_IS_REFERENCED, 1452=1015 - ER_NO_REFERENCED_ROW, 1166=1011 - ER_WRONG_COLUMN_NAME, 1230=1013 - ER_NO_DEFAULT, 1263=1006 - ER_WARN_NULL_TO_NOTNULL, 1231=1017 - ER_WRONG_VALUE_FOR_VAR, 1264=1018 - ER_WARN_DATA_OUT_OF_RANGE, 1232=1019 - ER_WRONG_TYPE_FOR_VAR, 1138=1005 - ER_INVALID_USE_OF_NULL, 1171=1007 - ER_PRIMARY_CANT_HAVE_NULL, 1140=1032 - ER_MIX_OF_GROUP_FUNC_AND_FIELDS, 1205=1024 - ER_LOCK_WAIT_TIMEOUT, 1206=1025 - ER_LOCK_TABLE_FULL, 1111=1031 - ER_INVALID_GROUP_FUNC_USE, 1048=1004 - ER_BAD_NULL_ERROR, 1213=1027 - ER_LOCK_DEADLOCK}, PgSQLErrorCode={23505=1001 - ER_DUP_ENTRY, 42703=1011 - ER_WRONG_COLUMN_NAME, 22001=1018 - ER_WARN_DATA_OUT_OF_RANGE, 22P02=1017 - ER_WRONG_VALUE_FOR_VAR, 22003=1014 - ER_TOO_BIG_SET, 42601=1008 - ER_WRONG_VALUE_COUNT, 23502=1004 - ER_BAD_NULL_ERROR, 23503=1015 - ER_NO_REFERENCED_ROW}, AdventNetErrorCode={1024=1024 - ER_LOCK_WAIT_TIMEOUT, 1025=1025 - ER_LOCK_TABLE_FULL, 1027=1027 - ER_LOCK_DEADLOCK, 1031=1031 - ER_INVALID_GROUP_FUNC_USE, 1032=1032 - ER_MIX_OF_GROUP_FUNC_AND_FIELDS, 1001=1001 - ER_DUP_ENTRY, 1003=1003 - ER_DUPLICATED_VALUE_IN_TYPE, 1004=1004 - ER_BAD_NULL_ERROR, 1005=1005 - ER_INVALID_USE_OF_NULL, 1006=1006 - ER_WARN_NULL_TO_NOTNULL, 1007=1007 - ER_PRIMARY_CANT_HAVE_NULL, 1008=1008 - ER_WRONG_VALUE_COUNT, 1010=1010 - ER_WRONG_FIELD_SPEC, 1011=1011 - ER_WRONG_COLUMN_NAME, 1012=1012 - ER_INVALID_DEFAULT, 1013=1013 - ER_NO_DEFAULT, 1014=1014 - ER_TOO_BIG_SET, 1015=1015 - ER_NO_REFERENCED_ROW, 1016=1016 - ER_ROW_IS_REFERENCED, 1017=1017 - ER_WRONG_VALUE_FOR_VAR, 1018=1018 - ER_WARN_DATA_OUT_OF_RANGE, 1019=1019 - ER_WRONG_TYPE_FOR_VAR}, MsSQLErrorCode={8114=1017 - ER_WRONG_VALUE_FOR_VAR, 2627=1001 - ER_DUP_ENTRY, 515=1004 - ER_BAD_NULL_ERROR, 8115=1014 - ER_TOO_BIG_SET, 547=1016 - ER_ROW_IS_REFERENCED, 8152=1018 - ER_WARN_DATA_OUT_OF_RANGE, 109=1008 - ER_WRONG_VALUE_COUNT, 110=1008 - ER_WRONG_VALUE_COUNT, 207=1011 - ER_WRONG_COLUMN_NAME}}|
+[12:47:54:773]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: Audit|
+[12:47:54:937]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: Authentication|
+[12:47:55:038]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: Authorization|
+[12:47:55:039]|[06-10-2020]|[com.adventnet.persistence.xml.XmlParser]|[INFO]|[1]: Going to parse the XML :: [file:/home/ubuntu/ManageEngine/KeyManager/conf/Authorization/personality-configuration.xml]|
+[12:47:55:164]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: CustomView|
+[12:47:55:165]|[06-10-2020]|[com.adventnet.persistence.xml.XmlParser]|[INFO]|[1]: Going to parse the XML :: [file:/home/ubuntu/ManageEngine/KeyManager/conf/CustomView/personality-configuration.xml]|
+[12:47:55:236]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: TaskEngine|
+[12:47:55:237]|[06-10-2020]|[com.adventnet.persistence.xml.XmlParser]|[INFO]|[1]: Going to parse the XML :: [file:/home/ubuntu/ManageEngine/KeyManager/conf/TaskEngine/personality-configuration.xml]|
+[12:47:55:343]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: ClientFramework|
+[12:47:55:344]|[06-10-2020]|[com.adventnet.persistence.xml.XmlParser]|[INFO]|[1]: Going to parse the XML :: [file:/home/ubuntu/ManageEngine/KeyManager/conf/ClientFramework/personality-configuration.xml]|
+[12:47:55:536]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: ClientComponents|
+[12:47:55:537]|[06-10-2020]|[com.adventnet.persistence.xml.XmlParser]|[INFO]|[1]: Going to parse the XML :: [file:/home/ubuntu/ManageEngine/KeyManager/conf/ClientComponents/personality-configuration.xml]|
+[12:47:56:102]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: PassTrix|
+[12:47:56:103]|[06-10-2020]|[com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|[INFO]|[1]: addTemplate: PassTrix, Ptrx_OrgUserAudit|
+[12:47:56:103]|[06-10-2020]|[com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|[INFO]|[1]: addTemplate: PassTrix, Ptrx_OrgRecordedSessionInfo|
+[12:47:56:106]|[06-10-2020]|[com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|[INFO]|[1]: addTemplate: PassTrix, Ptrx_OrgUserSessions|
+[12:47:56:386]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: pki|
+[12:47:56:491]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: loaded the module dd :: PIM|
+[12:47:56:578]|[06-10-2020]|[com.adventnet.passtrix.DMNotificationListener]|[INFO]|[1]: INIT MESSAGE LISTNER CALLED|
+[12:47:56:584]|[06-10-2020]|[com.zoho.cp.TxnTimeOutImpl]|[INFO]|[1]: TransactionTimeout Thread has started.|
+[12:48:01:175]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Going to stop the DBServer|
+[12:48:01:176]|[06-10-2020]|[com.adventnet.persistence.PersistenceInitializer]|[INFO]|[1]: Template replaced url :: jdbc:postgresql://localhost:53306/pki?charSet=UTF-8|
+[12:48:01:176]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: /home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_isready isExists :: true|
+[12:48:01:176]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Stopping PgSQL Server ...|
+[12:48:01:176]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_isready, --host, 127.0.0.1, --port, 53306, -t, 120, --username, kmpuser] |
+[12:48:01:180]|[06-10-2020]|[SYSOUT]|[INFO]|[24]: 127.0.0.1:53306 - accepting connections|
+[12:48:01:181]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: pg_isready returning status :: 0|
+[12:48:01:181]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: isServerRunning :: true|
+[12:48:01:181]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Going to stop DB server using pg_ctl utility.|
+[12:48:01:181]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[SEVERE]|[1]: Command :: [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_ctl, -w, -D, /home/ubuntu/ManageEngine/KeyManager/pgsql/data, -o, "-p53306", stop, -s, -m, fast]|
+[12:48:01:181]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [su, -, ubuntu, -c, /home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_ctl -w -D /home/ubuntu/ManageEngine/KeyManager/pgsql/data -o "-p53306" stop -s -m fast ] |
+[12:48:02:194]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: waitfor pgctl Utility stop returns :: 0|
+[12:48:02:195]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Command to be executed [/home/ubuntu/ManageEngine/KeyManager/pgsql/bin/pg_isready, --host, 127.0.0.1, --port, 53306, -t, 120, --username, kmpuser] |
+[12:48:02:198]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: pg_isready returning status :: 2|
+[12:48:02:198]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: isServerRunning :: false|
+[12:48:02:198]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: isServerStopped :: going to return :: true|
+[12:48:02:199]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: is DB registered as a service ::: false|
+[12:48:02:199]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: Check PID status default timeout |
+[12:48:02:199]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: postmaster.pid file doesn't exist.|
+[12:48:02:199]|[06-10-2020]|[com.adventnet.db.adapter.postgres.DefaultPostgresDBInitializer]|[INFO]|[1]: isServerStopped method returning status ::: true|

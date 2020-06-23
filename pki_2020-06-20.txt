@@ -1,0 +1,12 @@
+[00:10:00:000]|[06-20-2020]|[com.manageengine.pki.schedule.task.AuditPurgeTask]|[INFO]|[80]: Audit purge task started|
+[02:00:44:093]|[06-20-2020]|[com.manageengine.pki.schedule.task.DBBackupTask]|[INFO]|[83]: Backup Schedule mail address is not available.|
+[03:00:00:001]|[06-20-2020]|[com.manageengine.pki.ssl.SSLVulnerabilitiesTask]|[INFO]|[82]: SSL Vulnerabilities task started|
+[05:00:00:000]|[06-20-2020]|[com.manageengine.pki.letsencrypt.LetsEncryptRenewalTask]|[INFO]|[84]: Let's Encrypt certificate renewel task started|
+[06:00:00:000]|[06-20-2020]|[com.manageengine.pki.digicert.DigiCertCertTask]|[INFO]|[80]: DigiCertCertTask Started:|
+[06:00:00:001]|[06-20-2020]|[com.manageengine.pki.digicert.DigiCertCertTask]|[INFO]|[80]: DigiCertCertTask No account available|
+[07:00:00:001]|[06-20-2020]|[com.manageengine.pki.sslstore.SSLStoreCertTask]|[INFO]|[81]: SSLStoreCertTask Started:|
+[07:00:00:001]|[06-20-2020]|[com.manageengine.pki.sslstore.SSLStoreCertTask]|[INFO]|[81]: SSLStoreCertTask Completed:|
+[08:00:00:001]|[06-20-2020]|[com.manageengine.pki.pgp.PGPExpiryNotifyTask]|[INFO]|[83]: PGPExpiryNotifyTask disabled|
+[13:00:00:000]|[06-20-2020]|[com.manageengine.pki.schedule.task.ScheduleMSCAAutoRenewalTask]|[INFO]|[82]: MicroSoft CA AutoRenewal Task Running.....|
+[22:00:00:000]|[06-20-2020]|[com.manageengine.pki.godaddy.GoDaddyTask]|[INFO]|[80]: GoDaddyTask started|
+[23:00:00:001]|[06-20-2020]|[com.manageengine.pki.schedule.task.NotifyCertificateExpiration]|[INFO]|[81]: ScheduleTask Started for Notification of Certificate Expire|

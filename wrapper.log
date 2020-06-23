@@ -1,0 +1,371 @@
+STATUS | wrapper  | 2020/06/12 17:06:45 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/06/12 17:06:45 | Java Service Wrapper Professional Edition 64-bit 3.5.25
+STATUS | wrapper  | 2020/06/12 17:06:45 |   Copyright (C) 1999-2014 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2020/06/12 17:06:45 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2020/06/12 17:06:45 |   Licensed to Zoho Corporation Pvt. Ltd. for ManageEngine Key Manager
+STATUS | wrapper  | 2020/06/12 17:06:45 | 
+ERROR  | wrapper  | 2020/06/12 17:06:45 | Event Command 'jvm_prelaunch': Unable to start command: No such file or directory (2)
+STATUS | wrapper  | 2020/06/12 17:06:45 | Launching a JVM...
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2020/06/12 17:06:46 | Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so which might have disabled stack guard. The VM will try to fix the stack guard now.
+INFO   | jvm 1    | 2020/06/12 17:06:46 | It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager: 
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager: WARNING - Unable to load the Wrapper''s native library 'libwrapper.so'.
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:           The file is located on the path at the following location but
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:           could not be loaded:
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/bin/../lib/native/libwrapper.so
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:           Please verify that the file is both readable and executable by the
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:           current user and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:           This is a 64-bit JVM.
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:           Reported cause:
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: wrong ELF class: ELFCLASS32 (Possible cause: architecture word width mismatch)
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 1    | 2020/06/12 17:06:46 | WrapperManager: 
+INFO   | jvm 1    | 2020/06/12 17:06:47 | Starting Server from location: /home/ubuntu/ManageEngine/KeyManager
+INFO   | jvm 1    | 2020/06/12 17:06:48 | This evaluation copy is valid for 27 days
+INFO   | jvm 1    | 2020/06/12 17:06:52 | Modules already Populated
+INFO   | jvm 1    | 2020/06/12 17:06:52 | 
+INFO   | jvm 1    | 2020/06/12 17:06:52 |      ModulePreStartProcess :: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:06:52 | Persistence                                       [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:52 |      ModulePostStartProcess:: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:06:52 | SQNS                                              [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:53 | Audit                                             [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:53 | Authentication                                    [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:53 | Authorization                                     [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:53 | CustomView                                        [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:53 | TaskEngine                                        [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:53 | Tomcat                                            [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:54 | ClientFramework                                   [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:54 | ClientComponents                                  [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:55 | PassTrix
+INFO   | jvm 1    | 2020/06/12 17:06:55 |                                           [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:55 | pki                                               [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:55 | PIM                                               [ LOADED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | 
+INFO   | jvm 1    | 2020/06/12 17:06:56 | Creating Services
+INFO   | jvm 1    | 2020/06/12 17:06:56 | CacheService                                      [ CREATED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | AuthenticationService                             [ CREATED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | AuthorizationService                              [ CREATED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | TaskEngineService                                 [ CREATED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | WebService                                        [ CREATED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | ClientFrameworkService                            [ CREATED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | TableTemplateService                              [ CREATED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | TemplateService                                   [ CREATED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | KMPService                                        [ CREATED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | 
+INFO   | jvm 1    | 2020/06/12 17:06:56 | Starting Services
+INFO   | jvm 1    | 2020/06/12 17:06:56 | CacheService                                      [ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | AuthenticationService                             [ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | AuthorizationService                              [ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:06:56 | TaskEngineService                                 [ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:07:00 | WebService                                        [ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:07:00 | ClientFrameworkService                            [ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:07:00 | TableTemplateService                              [ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:07:00 | TemplateService                                   [ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:07:00 | KMPService                                        [ STARTED ]
+INFO   | jvm 1    | 2020/06/12 17:07:00 | Connect to : https://ip-172-31-6-219:6565/
+INFO   | jvm 1    | 2020/06/12 17:07:00 | 
+INFO   | jvm 1    | 2020/06/12 17:07:00 | Server started in :: [13955 ms]
+INFO   | jvm 1    | 2020/06/12 17:07:00 | 
+ERROR  | wrapper  | 2020/06/12 17:12:02 | JVM exited unexpectedly.
+ERROR  | wrapper  | 2020/06/12 17:12:07 | Event Command 'jvm_prelaunch': Unable to start command: No such file or directory (2)
+STATUS | wrapper  | 2020/06/12 17:12:07 | Launching a JVM...
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager: Initializing...
+INFO   | jvm 2    | 2020/06/12 17:12:07 | Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so which might have disabled stack guard. The VM will try to fix the stack guard now.
+INFO   | jvm 2    | 2020/06/12 17:12:07 | It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager: 
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager: WARNING - Unable to load the Wrapper''s native library 'libwrapper.so'.
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:           The file is located on the path at the following location but
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:           could not be loaded:
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/bin/../lib/native/libwrapper.so
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:           Please verify that the file is both readable and executable by the
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:           current user and that the file has not been corrupted in any way.
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:           One common cause of this problem is running a 32-bit version
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:           This is a 64-bit JVM.
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:           Reported cause:
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: wrong ELF class: ELFCLASS32 (Possible cause: architecture word width mismatch)
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 2    | 2020/06/12 17:12:07 | WrapperManager: 
+INFO   | jvm 2    | 2020/06/12 17:12:07 | Starting Server from location: /home/ubuntu/ManageEngine/KeyManager
+INFO   | jvm 2    | 2020/06/12 17:12:12 | Loading Modules
+INFO   | jvm 2    | 2020/06/12 17:12:12 | 
+INFO   | jvm 2    | 2020/06/12 17:12:12 |      ModulePreStartProcess :: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:12 | Persistence                                       [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:12 |      ModulePostStartProcess:: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:12 | SQNS                                              [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:12 | Audit                                             [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:12 | Authentication
+INFO   | jvm 2    | 2020/06/12 17:12:13 |                                     [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:14 | Authorization                                     [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:14 | CustomView                                        [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:14 | TaskEngine                                        [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:14 | Tomcat                                            [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:15 | ClientFramework
+INFO   | jvm 2    | 2020/06/12 17:12:15 |                                    [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:16 | ClientComponents
+INFO   | jvm 2    | 2020/06/12 17:12:17 |                                   [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:18 | PassTrix
+INFO   | jvm 2    | 2020/06/12 17:12:44 |                                           [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:45 | pki
+INFO   | jvm 2    | 2020/06/12 17:12:48 |                                                [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | PIM                                               [POPULATED]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | 
+INFO   | jvm 2    | 2020/06/12 17:12:48 | Creating Services
+INFO   | jvm 2    | 2020/06/12 17:12:48 | CacheService                                      [ CREATED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | AuthenticationService                             [ CREATED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | AuthorizationService                              [ CREATED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | TaskEngineService                                 [ CREATED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | WebService                                        [ CREATED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | ClientFrameworkService                            [ CREATED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | TableTemplateService                              [ CREATED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | TemplateService                                   [ CREATED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | KMPService                                        [ CREATED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | 
+INFO   | jvm 2    | 2020/06/12 17:12:48 | Starting Services
+INFO   | jvm 2    | 2020/06/12 17:12:48 | CacheService                                      [ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | AuthenticationService                             [ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | AuthorizationService                              [ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:48 | TaskEngineService                                 [ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:50 | WebService                                        [ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:50 | ClientFrameworkService                            [ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:50 | TableTemplateService                              [ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:50 | TemplateService                                   [ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:52 | KMPService                                        [ STARTED ]
+INFO   | jvm 2    | 2020/06/12 17:12:52 | Connect to : https://ip-172-31-6-219:6565/
+INFO   | jvm 2    | 2020/06/12 17:12:52 | 
+INFO   | jvm 2    | 2020/06/12 17:12:52 | Server started in :: [44729 ms]
+INFO   | jvm 2    | 2020/06/12 17:12:52 | 
+STATUS | wrapper  | 2020/06/12 17:12:53 | JVM received a signal SIGKILL (9).
+STATUS | wrapper  | 2020/06/12 17:12:53 | JVM process is gone.
+ERROR  | wrapper  | 2020/06/12 17:12:53 | JVM exited unexpectedly.
+ERROR  | wrapper  | 2020/06/12 17:12:58 | Event Command 'jvm_prelaunch': Unable to start command: No such file or directory (2)
+STATUS | wrapper  | 2020/06/12 17:12:58 | Launching a JVM...
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager: Initializing...
+INFO   | jvm 3    | 2020/06/12 17:12:58 | Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so which might have disabled stack guard. The VM will try to fix the stack guard now.
+INFO   | jvm 3    | 2020/06/12 17:12:58 | It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager: 
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager: WARNING - Unable to load the Wrapper''s native library 'libwrapper.so'.
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:           The file is located on the path at the following location but
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:           could not be loaded:
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/bin/../lib/native/libwrapper.so
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:           Please verify that the file is both readable and executable by the
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:           current user and that the file has not been corrupted in any way.
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:           One common cause of this problem is running a 32-bit version
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:           This is a 64-bit JVM.
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:           Reported cause:
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: wrong ELF class: ELFCLASS32 (Possible cause: architecture word width mismatch)
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 3    | 2020/06/12 17:12:58 | WrapperManager: 
+INFO   | jvm 3    | 2020/06/12 17:12:58 | Starting Server from location: /home/ubuntu/ManageEngine/KeyManager
+INFO   | jvm 3    | 2020/06/12 17:12:59 | This evaluation copy is valid for 29 days
+INFO   | jvm 3    | 2020/06/12 17:13:00 | Modules already Populated
+INFO   | jvm 3    | 2020/06/12 17:13:00 | 
+INFO   | jvm 3    | 2020/06/12 17:13:00 |      ModulePreStartProcess :: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:00 | Persistence                                       [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:00 |      ModulePostStartProcess:: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:00 | SQNS                                              [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:00 | Audit                                             [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:01 | Authentication                                    [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:01 | Authorization                                     [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:01 | CustomView                                        [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:01 | TaskEngine                                        [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:01 | Tomcat                                            [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:01 | ClientFramework                                   [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:01 | ClientComponents                                  [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | PassTrix
+INFO   | jvm 3    | 2020/06/12 17:13:02 |                                           [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | pki                                               [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | PIM                                               [ LOADED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | 
+INFO   | jvm 3    | 2020/06/12 17:13:02 | Creating Services
+INFO   | jvm 3    | 2020/06/12 17:13:02 | CacheService                                      [ CREATED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | AuthenticationService                             [ CREATED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | AuthorizationService                              [ CREATED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | TaskEngineService                                 [ CREATED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | WebService                                        [ CREATED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | ClientFrameworkService                            [ CREATED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | TableTemplateService                              [ CREATED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | TemplateService                                   [ CREATED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | KMPService                                        [ CREATED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | 
+INFO   | jvm 3    | 2020/06/12 17:13:02 | Starting Services
+INFO   | jvm 3    | 2020/06/12 17:13:02 | CacheService                                      [ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:02 | AuthenticationService                             [ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:03 | AuthorizationService                              [ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:03 | TaskEngineService                                 [ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:05 | WebService                                        [ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:05 | ClientFrameworkService                            [ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:05 | TableTemplateService                              [ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:05 | TemplateService                                   [ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:05 | KMPService                                        [ STARTED ]
+INFO   | jvm 3    | 2020/06/12 17:13:05 | Connect to : https://ip-172-31-6-219:6565/
+INFO   | jvm 3    | 2020/06/12 17:13:05 | 
+INFO   | jvm 3    | 2020/06/12 17:13:05 | Server started in :: [6978 ms]
+INFO   | jvm 3    | 2020/06/12 17:13:05 | 
+STATUS | wrapper  | 2020/06/12 17:13:28 | JVM received a signal SIGKILL (9).
+STATUS | wrapper  | 2020/06/12 17:13:28 | JVM process is gone.
+ERROR  | wrapper  | 2020/06/12 17:13:28 | JVM exited unexpectedly.
+ERROR  | wrapper  | 2020/06/12 17:13:32 | Event Command 'jvm_prelaunch': Unable to start command: No such file or directory (2)
+STATUS | wrapper  | 2020/06/12 17:13:33 | Launching a JVM...
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager: Initializing...
+INFO   | jvm 4    | 2020/06/12 17:13:33 | Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so which might have disabled stack guard. The VM will try to fix the stack guard now.
+INFO   | jvm 4    | 2020/06/12 17:13:33 | It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager: 
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager: WARNING - Unable to load the Wrapper''s native library 'libwrapper.so'.
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:           The file is located on the path at the following location but
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:           could not be loaded:
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/bin/../lib/native/libwrapper.so
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:           Please verify that the file is both readable and executable by the
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:           current user and that the file has not been corrupted in any way.
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:           One common cause of this problem is running a 32-bit version
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:           This is a 64-bit JVM.
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:           Reported cause:
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: wrong ELF class: ELFCLASS32 (Possible cause: architecture word width mismatch)
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 4    | 2020/06/12 17:13:33 | WrapperManager: 
+INFO   | jvm 4    | 2020/06/12 17:13:33 | Starting Server from location: /home/ubuntu/ManageEngine/KeyManager
+INFO   | jvm 4    | 2020/06/12 17:13:34 | This evaluation copy is valid for 29 days
+INFO   | jvm 4    | 2020/06/12 17:13:39 | Modules already Populated
+INFO   | jvm 4    | 2020/06/12 17:13:39 | 
+INFO   | jvm 4    | 2020/06/12 17:13:39 |      ModulePreStartProcess :: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:39 | Persistence                                       [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:39 |      ModulePostStartProcess:: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:39 | SQNS                                              [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:39 | Audit                                             [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:39 | Authentication                                    [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:39 | Authorization                                     [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:39 | CustomView                                        [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:40 | TaskEngine                                        [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:40 | Tomcat                                            [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:40 | ClientFramework                                   [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:40 | ClientComponents                                  [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:40 | PassTrix
+INFO   | jvm 4    | 2020/06/12 17:13:41 |                                           [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | pki                                               [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | PIM                                               [ LOADED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | 
+INFO   | jvm 4    | 2020/06/12 17:13:41 | Creating Services
+INFO   | jvm 4    | 2020/06/12 17:13:41 | CacheService                                      [ CREATED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | AuthenticationService                             [ CREATED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | AuthorizationService                              [ CREATED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | TaskEngineService                                 [ CREATED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | WebService                                        [ CREATED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | ClientFrameworkService                            [ CREATED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | TableTemplateService                              [ CREATED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | TemplateService                                   [ CREATED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | KMPService                                        [ CREATED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | 
+INFO   | jvm 4    | 2020/06/12 17:13:41 | Starting Services
+INFO   | jvm 4    | 2020/06/12 17:13:41 | CacheService                                      [ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | AuthenticationService                             [ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | AuthorizationService                              [ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:41 | TaskEngineService                                 [ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:43 | WebService                                        [ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:43 | ClientFrameworkService                            [ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:43 | TableTemplateService                              [ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:43 | TemplateService                                   [ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:44 | KMPService                                        [ STARTED ]
+INFO   | jvm 4    | 2020/06/12 17:13:44 | Connect to : https://ip-172-31-6-219:6565/
+INFO   | jvm 4    | 2020/06/12 17:13:44 | 
+INFO   | jvm 4    | 2020/06/12 17:13:44 | Server started in :: [10762 ms]
+INFO   | jvm 4    | 2020/06/12 17:13:44 | 
+ERROR  | wrapper  | 2020/06/12 17:16:09 | JVM exited unexpectedly.
+ERROR  | wrapper  | 2020/06/12 17:16:14 | Event Command 'jvm_prelaunch': Unable to start command: No such file or directory (2)
+STATUS | wrapper  | 2020/06/12 17:16:14 | Launching a JVM...
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager: Initializing...
+INFO   | jvm 5    | 2020/06/12 17:16:14 | Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so which might have disabled stack guard. The VM will try to fix the stack guard now.
+INFO   | jvm 5    | 2020/06/12 17:16:14 | It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager: 
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager: WARNING - Unable to load the Wrapper''s native library 'libwrapper.so'.
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:           The file is located on the path at the following location but
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:           could not be loaded:
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/bin/../lib/native/libwrapper.so
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:           Please verify that the file is both readable and executable by the
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:           current user and that the file has not been corrupted in any way.
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:           One common cause of this problem is running a 32-bit version
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:           This is a 64-bit JVM.
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:           Reported cause:
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:             /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: /home/ubuntu/ManageEngine/KeyManager/lib/native/libwrapper.so: wrong ELF class: ELFCLASS32 (Possible cause: architecture word width mismatch)
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager:           System signals will not be handled correctly.
+INFO   | jvm 5    | 2020/06/12 17:16:14 | WrapperManager: 
+INFO   | jvm 5    | 2020/06/12 17:16:14 | Starting Server from location: /home/ubuntu/ManageEngine/KeyManager
+INFO   | jvm 5    | 2020/06/12 17:16:18 | Loading Modules
+INFO   | jvm 5    | 2020/06/12 17:16:18 | 
+INFO   | jvm 5    | 2020/06/12 17:16:18 |      ModulePreStartProcess :: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:18 | Persistence                                       [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:18 |      ModulePostStartProcess:: Persistence::DBAUDIT[ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:18 | SQNS                                              [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:19 | Audit                                             [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:19 | Authentication
+INFO   | jvm 5    | 2020/06/12 17:16:20 |                                     [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:20 | Authorization                                     [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:21 | CustomView                                        [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:21 | TaskEngine                                        [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:21 | Tomcat                                            [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:21 | ClientFramework
+INFO   | jvm 5    | 2020/06/12 17:16:22 |                                    [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:22 | ClientComponents
+INFO   | jvm 5    | 2020/06/12 17:16:24 |                                   [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:24 | PassTrix
+INFO   | jvm 5    | 2020/06/12 17:16:52 |                                           [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:52 | pki
+INFO   | jvm 5    | 2020/06/12 17:16:55 |                                                [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:55 | PIM                                               [POPULATED]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | 
+INFO   | jvm 5    | 2020/06/12 17:16:56 | Creating Services
+INFO   | jvm 5    | 2020/06/12 17:16:56 | CacheService                                      [ CREATED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | AuthenticationService                             [ CREATED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | AuthorizationService                              [ CREATED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | TaskEngineService                                 [ CREATED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | WebService                                        [ CREATED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | ClientFrameworkService                            [ CREATED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | TableTemplateService                              [ CREATED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | TemplateService                                   [ CREATED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | KMPService                                        [ CREATED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | 
+INFO   | jvm 5    | 2020/06/12 17:16:56 | Starting Services
+INFO   | jvm 5    | 2020/06/12 17:16:56 | CacheService                                      [ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | AuthenticationService                             [ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | AuthorizationService                              [ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:56 | TaskEngineService                                 [ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:58 | WebService                                        [ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:58 | ClientFrameworkService                            [ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:58 | TableTemplateService                              [ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:58 | TemplateService                                   [ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:59 | KMPService                                        [ STARTED ]
+INFO   | jvm 5    | 2020/06/12 17:16:59 | Connect to : https://ip-172-31-6-219:6565/
+INFO   | jvm 5    | 2020/06/12 17:16:59 | 
+INFO   | jvm 5    | 2020/06/12 17:16:59 | Server started in :: [45530 ms]
+INFO   | jvm 5    | 2020/06/12 17:16:59 | 
+INFO   | jvm 5    | 2020/06/23 20:42:27 | Shutting down the JVM now!
+INFO   | jvm 5    | 2020/06/23 20:42:27 | Stopping Services
+INFO   | jvm 5    | 2020/06/23 20:42:27 | KMPService                                        [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | TemplateService                                   [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | TableTemplateService                              [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | ClientFrameworkService                            [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | WebService                                        [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | TaskEngineService                                 [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | AuthorizationService                              [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | AuthenticationService                             [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | CacheService                                      [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | Destroying Services
+INFO   | jvm 5    | 2020/06/23 20:42:27 | KMPService                                        [DESTROYED]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | TemplateService                                   [DESTROYED]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | TableTemplateService                              [DESTROYED]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | ClientFrameworkService                            [DESTROYED]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | WebService                                        [DESTROYED]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | TaskEngineService                                 [DESTROYED]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | AuthorizationService                              [DESTROYED]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | AuthenticationService                             [DESTROYED]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | CacheService                                      [DESTROYED]
+INFO   | jvm 5    | 2020/06/23 20:42:27 | Stopping Module processors
+INFO   | jvm 5    | 2020/06/23 20:42:27 | 
+INFO   | jvm 5    | 2020/06/23 20:42:27 | ModuleStopProcess:: Persistence::DBAUDIT     [ STOPPED ]
+INFO   | jvm 5    | 2020/06/23 20:42:28 | System halted
+STATUS | wrapper  | 2020/06/23 20:42:31 | <-- Wrapper Stopped

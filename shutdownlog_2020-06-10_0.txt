@@ -1,0 +1,44 @@
+[13:02:55:909]|[06-10-2020]|[com.zoho.net.handshake.HandShakeClient]|[INFO]|[1]: Connection established!!!|
+[13:02:55:921]|[06-10-2020]|[com.zoho.net.handshake.HandShakeClient]|[INFO]|[1]: Sending message :: ShutDownML|
+[13:02:55:923]|[06-10-2020]|[com.zoho.net.handshake.HandShakeClient]|[INFO]|[1]: Sending message to HandShakeServer|
+[13:03:05:998]|[06-10-2020]|[SYSERR]|[INFO]|[1]: java.io.IOException: Exception while receiving message from HandShakeServer!!!|
+[13:03:05:998]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.zoho.net.handshake.RecvFromServer.getMessage(HandShakeClient.java:142)|
+[13:03:05:999]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.zoho.net.handshake.HandShakeClient.getPingMessage(HandShakeClient.java:40)|
+[13:03:05:999]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.zoho.net.handshake.HandShakeClient.getPingMessageAndExit(HandShakeClient.java:45)|
+[13:03:05:999]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.adventnet.mfw.Shutdown.shutdown(Shutdown.java:50)|
+[13:03:05:999]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.adventnet.mfw.Shutdown.<init>(Shutdown.java:20)|
+[13:03:05:999]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.adventnet.mfw.Shutdown.main(Shutdown.java:114)|
+[13:03:06:000]|[06-10-2020]|[SYSERR]|[INFO]|[1]: Caused by: java.net.SocketTimeoutException: Read timed out|
+[13:03:06:000]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.net.SocketInputStream.socketRead0(Native Method)|
+[13:03:06:000]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)|
+[13:03:06:000]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.net.SocketInputStream.read(SocketInputStream.java:170)|
+[13:03:06:000]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.net.SocketInputStream.read(SocketInputStream.java:141)|
+[13:03:06:000]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2338)|
+[13:03:06:001]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2351)|
+[13:03:06:001]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2822)|
+[13:03:06:001]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:804)|
+[13:03:06:001]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:301)|
+[13:03:06:001]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.zoho.net.handshake.RecvFromServer.getMessage(HandShakeClient.java:135)|
+[13:03:06:001]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	... 5 more|
+[13:03:13:115]|[06-10-2020]|[com.zoho.net.handshake.HandShakeClient]|[INFO]|[1]: Connection established!!!|
+[13:03:13:127]|[06-10-2020]|[com.zoho.net.handshake.HandShakeClient]|[INFO]|[1]: Sending message :: ShutDownML|
+[13:03:13:129]|[06-10-2020]|[com.zoho.net.handshake.HandShakeClient]|[INFO]|[1]: Sending message to HandShakeServer|
+[13:03:23:205]|[06-10-2020]|[SYSERR]|[INFO]|[1]: java.io.IOException: Exception while receiving message from HandShakeServer!!!|
+[13:03:23:205]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.zoho.net.handshake.RecvFromServer.getMessage(HandShakeClient.java:142)|
+[13:03:23:206]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.zoho.net.handshake.HandShakeClient.getPingMessage(HandShakeClient.java:40)|
+[13:03:23:206]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.zoho.net.handshake.HandShakeClient.getPingMessageAndExit(HandShakeClient.java:45)|
+[13:03:23:206]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.adventnet.mfw.Shutdown.shutdown(Shutdown.java:50)|
+[13:03:23:206]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.adventnet.mfw.Shutdown.<init>(Shutdown.java:20)|
+[13:03:23:206]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.adventnet.mfw.Shutdown.main(Shutdown.java:114)|
+[13:03:23:207]|[06-10-2020]|[SYSERR]|[INFO]|[1]: Caused by: java.net.SocketTimeoutException: Read timed out|
+[13:03:23:207]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.net.SocketInputStream.socketRead0(Native Method)|
+[13:03:23:207]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)|
+[13:03:23:207]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.net.SocketInputStream.read(SocketInputStream.java:170)|
+[13:03:23:207]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.net.SocketInputStream.read(SocketInputStream.java:141)|
+[13:03:23:207]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2338)|
+[13:03:23:208]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2351)|
+[13:03:23:208]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2822)|
+[13:03:23:208]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:804)|
+[13:03:23:208]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:301)|
+[13:03:23:208]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	at com.zoho.net.handshake.RecvFromServer.getMessage(HandShakeClient.java:135)|
+[13:03:23:209]|[06-10-2020]|[SYSERR]|[INFO]|[1]: 	... 5 more|

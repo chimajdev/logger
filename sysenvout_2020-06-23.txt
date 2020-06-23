@@ -1,0 +1,3 @@
+[20:42:27:334]|[06-23-2020]|[com.adventnet.mfw.Starter]|[INFO]|[120]: ShutDownML is received|
+[20:42:28:643]|[06-23-2020]|[com.adventnet.mfw.Starter]|[INFO]|[17]: Handling juli shutdown hook|
+[20:42:28:644]|[06-23-2020]|[com.adventnet.mfw.Starter]|[INFO]|[17]: Shutting down log manager..resetting bufferes|

@@ -1,0 +1,32 @@
+[17:09:31:400]|[06-09-2020]|[pglog]|[INFO]|[18]: waiting for server to start....LOG:  redirecting log output to logging collector process|
+[17:09:31:400]|[06-09-2020]|[pglog]|[INFO]|[18]: HINT:  Future log output will appear in directory "pg_log".|
+[17:09:32:373]|[06-09-2020]|[pglog]|[INFO]|[18]:  done|
+[17:09:32:373]|[06-09-2020]|[pglog]|[INFO]|[18]: server started|
+[12:54:48:869]|[06-10-2020]|[pglog]|[INFO]|[18]: waiting for server to start....LOG:  redirecting log output to logging collector process|
+[12:54:48:869]|[06-10-2020]|[pglog]|[INFO]|[18]: HINT:  Future log output will appear in directory "pg_log".|
+[12:54:49:848]|[06-10-2020]|[pglog]|[INFO]|[18]:  done|
+[12:54:49:848]|[06-10-2020]|[pglog]|[INFO]|[18]: server started|
+[12:58:27:291]|[06-10-2020]|[pglog]|[INFO]|[18]: waiting for server to start....LOG:  redirecting log output to logging collector process|
+[12:58:27:291]|[06-10-2020]|[pglog]|[INFO]|[18]: HINT:  Future log output will appear in directory "pg_log".|
+[12:58:28:267]|[06-10-2020]|[pglog]|[INFO]|[18]:  done|
+[12:58:28:267]|[06-10-2020]|[pglog]|[INFO]|[18]: server started|
+[13:51:21:675]|[06-10-2020]|[pglog]|[INFO]|[18]: waiting for server to start....LOG:  redirecting log output to logging collector process|
+[13:51:21:675]|[06-10-2020]|[pglog]|[INFO]|[18]: HINT:  Future log output will appear in directory "pg_log".|
+[13:51:22:648]|[06-10-2020]|[pglog]|[INFO]|[18]:  done|
+[13:51:22:648]|[06-10-2020]|[pglog]|[INFO]|[18]: server started|
+[17:06:49:817]|[06-12-2020]|[pglog]|[INFO]|[25]: waiting for server to start....LOG:  redirecting log output to logging collector process|
+[17:06:49:819]|[06-12-2020]|[pglog]|[INFO]|[25]: HINT:  Future log output will appear in directory "pg_log".|
+[17:06:50:695]|[06-12-2020]|[pglog]|[INFO]|[25]:  done|
+[17:06:50:696]|[06-12-2020]|[pglog]|[INFO]|[25]: server started|
+[17:12:08:682]|[06-12-2020]|[pglog]|[INFO]|[25]: waiting for server to start....LOG:  redirecting log output to logging collector process|
+[17:12:08:682]|[06-12-2020]|[pglog]|[INFO]|[25]: HINT:  Future log output will appear in directory "pg_log".|
+[17:12:09:653]|[06-12-2020]|[pglog]|[INFO]|[25]:  done|
+[17:12:09:654]|[06-12-2020]|[pglog]|[INFO]|[25]: server started|
+[17:13:34:415]|[06-12-2020]|[pglog]|[INFO]|[25]: waiting for server to start....LOG:  redirecting log output to logging collector process|
+[17:13:34:415]|[06-12-2020]|[pglog]|[INFO]|[25]: HINT:  Future log output will appear in directory "pg_log".|
+[17:13:38:390]|[06-12-2020]|[pglog]|[INFO]|[25]: ... done|
+[17:13:38:391]|[06-12-2020]|[pglog]|[INFO]|[25]: server started|
+[17:16:15:525]|[06-12-2020]|[pglog]|[INFO]|[25]: waiting for server to start....LOG:  redirecting log output to logging collector process|
+[17:16:15:525]|[06-12-2020]|[pglog]|[INFO]|[25]: HINT:  Future log output will appear in directory "pg_log".|
+[17:16:16:497]|[06-12-2020]|[pglog]|[INFO]|[25]:  done|
+[17:16:16:497]|[06-12-2020]|[pglog]|[INFO]|[25]: server started|

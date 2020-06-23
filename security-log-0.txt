@@ -1,0 +1,162 @@
+[17:10:13:742]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[64]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : true , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:10:13:742]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:10:13:743]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]:  regexes.yaml is being loaded from /home/ubuntu/ManageEngine/KeyManager/conf/regexes.yaml|
+[17:10:13:903]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-safeheaders.xml|
+[17:10:13:920]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-pki.xml|
+[17:10:14:056]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-common.xml|
+[17:10:14:077]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-pki-addon.xml|
+[17:10:14:125]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[64]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:10:14:288]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[64]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : false , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:10:14:288]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:10:14:288]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-safeheaders.xml|
+[17:10:14:289]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-pki.xml|
+[17:10:14:344]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-common.xml|
+[17:10:14:347]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-pki-addon.xml|
+[17:10:14:376]|[06-09-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[64]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:10:54:912]|[06-09-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[58]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[17:42:50:533]|[06-09-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[52]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[17:46:15:022]|[06-09-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[52]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[12:59:08:901]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[63]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : true , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[12:59:08:902]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[12:59:08:902]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]:  regexes.yaml is being loaded from /home/ubuntu/ManageEngine/KeyManager/conf/regexes.yaml|
+[12:59:08:999]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Loading security-conf file : security-safeheaders.xml|
+[12:59:09:014]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Loading security-conf file : security-pki.xml|
+[12:59:09:142]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Loading security-conf file : security-common.xml|
+[12:59:09:171]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Loading security-conf file : security-pki-addon.xml|
+[12:59:09:241]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[63]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[12:59:09:503]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[63]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : false , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[12:59:09:503]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[12:59:09:503]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Loading security-conf file : security-safeheaders.xml|
+[12:59:09:504]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Loading security-conf file : security-pki.xml|
+[12:59:09:575]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Loading security-conf file : security-common.xml|
+[12:59:09:580]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[63]: Loading security-conf file : security-pki-addon.xml|
+[12:59:09:604]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[63]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[12:59:19:958]|[06-10-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[50]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[13:52:03:603]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[64]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : true , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[13:52:03:603]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[13:52:03:603]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]:  regexes.yaml is being loaded from /home/ubuntu/ManageEngine/KeyManager/conf/regexes.yaml|
+[13:52:03:743]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-safeheaders.xml|
+[13:52:03:764]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-pki.xml|
+[13:52:04:081]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-common.xml|
+[13:52:04:105]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-pki-addon.xml|
+[13:52:04:177]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[64]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[13:52:04:419]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[64]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : false , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[13:52:04:419]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[13:52:04:420]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-safeheaders.xml|
+[13:52:04:422]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-pki.xml|
+[13:52:04:489]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-common.xml|
+[13:52:04:493]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[64]: Loading security-conf file : security-pki-addon.xml|
+[13:52:04:535]|[06-10-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[64]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[13:53:01:274]|[06-10-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[46]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[17:06:59:100]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[71]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : true , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:06:59:101]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:06:59:101]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]:  regexes.yaml is being loaded from /home/ubuntu/ManageEngine/KeyManager/conf/regexes.yaml|
+[17:06:59:221]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-safeheaders.xml|
+[17:06:59:242]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki.xml|
+[17:06:59:400]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-common.xml|
+[17:06:59:438]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki-addon.xml|
+[17:06:59:512]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[71]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:06:59:748]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[71]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : false , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:06:59:748]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:06:59:749]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-safeheaders.xml|
+[17:06:59:750]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki.xml|
+[17:07:00:004]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-common.xml|
+[17:07:00:010]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki-addon.xml|
+[17:07:00:035]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[71]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:11:47:128]|[06-12-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[44]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[17:11:55:075]|[06-12-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[58]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[17:12:50:010]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[71]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : true , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:12:50:011]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:12:50:011]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]:  regexes.yaml is being loaded from /home/ubuntu/ManageEngine/KeyManager/conf/regexes.yaml|
+[17:12:50:117]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-safeheaders.xml|
+[17:12:50:133]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki.xml|
+[17:12:50:267]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-common.xml|
+[17:12:50:290]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki-addon.xml|
+[17:12:50:339]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[71]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:12:50:728]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[71]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : false , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:12:50:728]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:12:50:728]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-safeheaders.xml|
+[17:12:50:729]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki.xml|
+[17:12:50:794]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-common.xml|
+[17:12:50:797]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki-addon.xml|
+[17:12:50:818]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[71]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:13:04:439]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[66]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : true , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:13:04:439]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:13:04:439]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]:  regexes.yaml is being loaded from /home/ubuntu/ManageEngine/KeyManager/conf/regexes.yaml|
+[17:13:04:564]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Loading security-conf file : security-safeheaders.xml|
+[17:13:04:580]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Loading security-conf file : security-pki.xml|
+[17:13:04:772]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Loading security-conf file : security-common.xml|
+[17:13:04:803]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Loading security-conf file : security-pki-addon.xml|
+[17:13:04:878]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[66]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:13:05:054]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[66]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : false , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:13:05:054]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:13:05:055]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Loading security-conf file : security-safeheaders.xml|
+[17:13:05:056]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Loading security-conf file : security-pki.xml|
+[17:13:05:109]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Loading security-conf file : security-common.xml|
+[17:13:05:113]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[66]: Loading security-conf file : security-pki-addon.xml|
+[17:13:05:136]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[66]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:13:42:859]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[71]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : true , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:13:42:860]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:13:42:860]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]:  regexes.yaml is being loaded from /home/ubuntu/ManageEngine/KeyManager/conf/regexes.yaml|
+[17:13:42:984]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-safeheaders.xml|
+[17:13:43:000]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki.xml|
+[17:13:43:212]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-common.xml|
+[17:13:43:242]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki-addon.xml|
+[17:13:43:296]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[71]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:13:43:470]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[71]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : false , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:13:43:470]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:13:43:470]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-safeheaders.xml|
+[17:13:43:471]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki.xml|
+[17:13:43:526]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-common.xml|
+[17:13:43:529]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki-addon.xml|
+[17:13:43:552]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[71]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:16:01:818]|[06-12-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[47]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[17:16:57:470]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[71]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : true , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:16:57:470]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:16:57:471]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]:  regexes.yaml is being loaded from /home/ubuntu/ManageEngine/KeyManager/conf/regexes.yaml|
+[17:16:57:611]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-safeheaders.xml|
+[17:16:57:631]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki.xml|
+[17:16:57:948]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-common.xml|
+[17:16:57:975]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki-addon.xml|
+[17:16:58:047]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[71]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:16:58:269]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[WARNING]|[71]: SAS Configuration Provider Class Not Loaded for the service null .isIAM : false , Class Name : com.zoho.conf.Configuration , Exception java.lang.ClassNotFoundException: com.zoho.conf.Configuration|
+[17:16:58:269]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Security common configuration files loaded from conf directory :: /home/ubuntu/ManageEngine/KeyManager/conf/|
+[17:16:58:269]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-safeheaders.xml|
+[17:16:58:270]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki.xml|
+[17:16:58:338]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-common.xml|
+[17:16:58:342]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilterProperties]|[INFO]|[71]: Loading security-conf file : security-pki-addon.xml|
+[17:16:58:365]|[06-12-2020]|[com.adventnet.iam.security.SecurityFilter]|[INFO]|[71]: Security Filter configurations loaded for the context path :: /home/ubuntu/ManageEngine/KeyManager/webapps/pki/|
+[17:18:12:552]|[06-12-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[44]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[14:02:43:923]|[06-17-2020]|[com.adventnet.iam.security.IAMSecurityException]|[INFO]|[68]: IAMSecurityException ErrorCode: URL_RULE_NOT_CONFIGURED,  RequestURI: "/apiclient/PassTrixMain.cc", RemoteAddr: "70.172.148.193", Referrer: "https://34.212.225.117:6565/apiclient/index.jsp"|
+[14:02:43:923]|[06-17-2020]|[com.adventnet.iam.security.SecurityFilter]|[SEVERE]|[68]:  IAMSecurityException Error Code : URL_RULE_NOT_CONFIGURED |
+[14:02:48:970]|[06-17-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[47]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[02:08:44:486]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[65]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[11:38:38:295]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[62]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[11:53:00:523]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[55]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[12:11:54:107]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[64]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[12:44:46:870]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[64]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[12:55:38:721]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[44]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[13:50:51:929]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[65]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[13:50:54:854]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[58]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[13:50:54:875]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[48]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[13:50:54:897]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[66]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[13:50:54:930]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[57]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[13:50:54:950]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[60]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[13:50:54:971]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[47]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[13:52:33:663]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[66]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[14:13:34:522]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[50]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[14:40:19:181]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[45]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[14:53:45:119]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[47]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[15:25:28:928]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[57]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[15:25:35:237]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[65]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[15:25:39:486]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[49]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[15:26:24:574]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[60]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[15:27:03:954]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[50]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[16:29:33:725]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[66]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[16:30:18:353]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[59]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[16:30:26:215]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[62]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[16:33:47:542]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[59]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[17:28:33:000]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[56]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[18:01:55:332]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[50]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[18:38:45:482]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[45]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
+[20:15:34:195]|[06-23-2020]|[com.adventnet.iam.security.URLRule]|[SEVERE]|[48]: ZSEC_LOOKUP_STANDARDIZATION STATS-  (ServletPath+PathInfo) : /index.html, Request URI : / , Path =  / |
